@@ -2,7 +2,7 @@ import React from "react";
 import { useState, useEffect } from "react";
 import BotCollection from "./components/BotCollection";
 import YourBotArmy from "./components/YourBotArmy";
-const BASEURL = "http://localhost:8001/bots";
+const BASEURL = "https://bot-server-eight.vercel.app/bots";
 function App() {
   const [Bot, setBot] = useState([]);
   const [army, setArmy] = useState([]);
